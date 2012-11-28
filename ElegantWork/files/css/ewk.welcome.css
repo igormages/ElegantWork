@@ -1,0 +1,94 @@
+
+
+/* Header Style */
+
+#header {
+	background: url(../../../ElegantWork/docs/background-menu.png);
+}
+#header h1 {
+	font-size: 6em;
+	line-height: 1em;
+	color:#FFF;
+	text-shadow: -1px -1px 0px #CCC, 1px 1px 0px #fff;
+	margin: 0.5em;
+	font-weight: normal;
+}
+.logo {
+	margin: 40px;
+	height: 60px;
+}
+
+/* Left Menu Style */
+
+.menu li{
+	list-style: none;
+}
+.menu a{
+	color: #bbbbbb;
+	text-shadow: 0px 1px 0px #FFF;
+	
+}
+ul.menu li.active > a,ul.menu li.active > a{
+	text-decoration: none;
+	color: #707070;
+}
+.menu a:hover, ul.menu > li.active > a{
+	text-decoration: none;
+	color: #e1d5bc;
+}
+.menu {
+	background: #f6f6f6;
+	height: 100%;
+	margin-bottom: 0;
+}
+ul.menu > li {
+	border-bottom: #e2e2e2 solid 1px;
+	border-top: #fbfbfb solid 1px;
+	border-right: #f6f6f6 solid 1px;
+	border-left: #c8c8c8 solid 0px;
+	padding: 26px;
+	font-size: 20px;
+}
+ul.menu > li:hover, ul.menu > li.active, ul.menu > li.border{
+	border-left: #e1d5bc solid 5px;
+}
+ul.menu > li li {
+	font-size: 14px;
+}
+ul.menu > li > ul {
+	margin-top: 10px;
+}
+ul.menu > li > ul > li.active::before {
+	content: "☞ ";
+}
+.hide {
+	display: none;
+}
+ul.menu > li > ul > li{
+	margin: 10px;
+}
+
+/* Page Style */
+html, body {
+	background: url(../../../ElegantWork/docs/background.png) #86b8b7;
+}
+.container:not(.footer) {
+	background: #FFF;
+	box-shadow: 0px 1px 1px #bbb
+}
+.page {
+	margin-left: 0px;
+	padding-left: 20px;
+}
+.footer footer{
+	float: right;
+	margin: 30px;
+	color: #5a7c7b;
+	text-shadow: 0px 1px 0px #DDD;
+}
+a:hover {
+	color: #5a7c7b;
+}
+a {
+	color: #86b8b7;
+}
